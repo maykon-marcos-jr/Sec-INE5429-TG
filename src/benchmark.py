@@ -522,7 +522,7 @@ def print_results(results: list[BenchmarkResult]) -> None:
     print("  OBSERVAÇÕES")
     print(f"{'─' * total}")
     notes = [
-        "Tempos: time.perf_counter() (resolução ns), média aritmética, desvio padrão.",
+        f"Tempos: {time.perf_counter()} (resolução ns), média aritmética, desvio padrão.",
         "dilithium-py é Python puro — sem SIMD/AVX; implementações C são 10–50× mais rápidas.",
         "Tamanhos são determinísticos (não dependem da implementação).",
         "ECDSA P-256 : ~128 bits de segurança clássica — VULNERÁVEL ao algoritmo de Shor.",

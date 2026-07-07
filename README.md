@@ -5,9 +5,9 @@ Desenvolvimento do trabalho em Grupo final para a disciplina de Segurança em Co
 
 ```bash
 pip install -r requirements.txt
-python benchmark.py --quick        # 20 iterações (rápido)
-python benchmark.py -n 100         # 100 iterações (padrão)
-python benchmark.py --csv out.csv  # exporta para CSV
+python src/benchmark.py --quick        # 20 iterações (rápido)
+python src/benchmark.py -n 100         # 100 iterações (padrão)
+python src/benchmark.py --csv out.csv  # exporta para CSV
 ```
 
 ## Estrutura do benchmark.py
